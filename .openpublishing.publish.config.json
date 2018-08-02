@@ -1,8 +1,9 @@
 {
+  "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "SkiaSharpDocs_cy",
-      "build_source_folder": "docs",
+      "docset_name": "SkiaSharpDocs-cy",
+      "build_source_folder": "Docs",
       "build_output_subfolder": "SkiaSharpDocs",
       "locale": "en-us",
       "monikers": [],
@@ -15,8 +16,6 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "base_path": "dotnet",
-      "site_name": "Docs",
       "customized_template_paths": [
         "_dependentPackages/memberpage.plugins/content"
       ],
@@ -31,16 +30,16 @@
         ]
       },
       "ECMA2Yaml": {
-        "SourceXmlFolder": "docs/xml",
-        "OutputYamlFolder": "docs/api",
+        "SourceXmlFolder": "Docs/xml",
+        "OutputYamlFolder": "Docs/api",
         "Flatten": true,
         "id": "SkiaSharpDocs"
       },
       "SplitTOC": [
-        "docs/api/SkiaSharpDocs/toc.yml"
+        "Docs/api/SkiaSharpDocs/toc.yml"
       ],
       "DiffFolder": [
-        "docs/api"
+        "Docs/api"
       ]
     }
   ],
@@ -60,8 +59,6 @@
   ],
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "dependent_packages": [
     {
       "id": "Microsoft.OpenPublishing.CommonPlugins",
