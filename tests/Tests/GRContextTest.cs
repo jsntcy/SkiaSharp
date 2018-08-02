@@ -28,8 +28,6 @@ namespace SkiaSharp.Tests
 
 				var glInterface = GRGlInterface.CreateNativeGlInterface();
 
-				Assert.True(glInterface.Validate());
-
 				var grContext = GRContext.Create(GRBackend.OpenGL, glInterface);
 			}
 		}
