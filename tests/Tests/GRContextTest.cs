@@ -31,8 +31,6 @@ namespace SkiaSharp.Tests
 				Assert.True(glInterface.Validate());
 
 				var grContext = GRContext.Create(GRBackend.OpenGL, glInterface);
-
-				Assert.NotNull(grContext);
 			}
 		}
 
